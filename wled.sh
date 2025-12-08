@@ -113,3 +113,5 @@ curl -s -X POST \
   -H "Content-Type: application/json" \
   -d "$json_payload" \
   "http://${WLED_HOST}/json/state" >/dev/null
+
+echo Sent $text
